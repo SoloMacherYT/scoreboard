@@ -1,0 +1,68 @@
+
+
+body{
+   background: #1b244a;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+div{
+    text-align: center;
+    display: inline-block;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eee;
+}
+
+#btn-re {
+    bottom: 700px;
+    left: 45%;
+    width: 100px;
+    height: 50px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: #022b3a;
+    color: #bfdbf7;
+    border: 5px solid #ff3c38;
+    font-size: large;
+}
+
+h1{
+    color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+    color: #f94f6d;
+    background: #080001;
+    font-size: 72px;
+    text-align: center;
+    font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+.btn{
+    border-radius: 2px solid #9aabdb;
+    width: 45px;
+    height: 45px;
+    background-color: #1b244a;
+    color: #9aabdb;
+    border: 2px solid #9aabdb;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 5px;
+}
